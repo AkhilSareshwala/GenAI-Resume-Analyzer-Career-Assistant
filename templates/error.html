@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .error-box { 
+            border: 1px solid #ff4444; 
+            padding: 20px; 
+            border-radius: 5px;
+            background-color: #ffebee;
+            color: #d32f2f;
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #1976d2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Something Went Wrong</h1>
+    <div class="error-box">
+        <p><strong>Error:</strong> {{ error }}</p>
+    </div>
+    <a href="{{ url_for('index') }}" class="home-link">← Back to Home</a>
+</body>
+</html>
