@@ -5,3 +5,4 @@ faiss-cpu
 gradio
 python-dotenv
 PyPDF2
+flask
