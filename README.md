@@ -6,7 +6,7 @@ This tool provides AI-powered resume analysis with three core functions:
 2. **Q&A System** - Instant answers about resume content
 3. **Chat Interface** - Conversational career coaching
 
-![Resume Upload Interface](r1.png)
+![Resume Upload Interface](frontend/r1.png)
 *Initial screen where users upload PDF resumes. Shows file selection and submission button.*
 
 ## Key Features Demonstrated
