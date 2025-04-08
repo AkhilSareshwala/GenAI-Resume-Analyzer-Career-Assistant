@@ -12,7 +12,7 @@ This tool provides AI-powered resume analysis with three core functions:
 ## Key Features Demonstrated
 
 ### 1. Comprehensive Resume Analysis
-![Analysis Results](r2.png)
+![Analysis Results](frontend/r2.png)
 *Sample output showing:*
 - Career profile summary
 - Technical skills breakdown
@@ -20,20 +20,20 @@ This tool provides AI-powered resume analysis with three core functions:
 - Structured bullet-point formatting
 
 ### 2. Targeted Question Answering
-![Question Input](r3.png)
+![Question Input](frontend/r3.png)
 *Users can ask specific questions like "Is it compatible for web development?"*
 
-![Answer Output](r4.png)
+![Answer Output](frontend/r4.png)
 *AI response analyzing web development compatibility based on Flask skills mentioned in the resume*
 
 ### 3. Interactive Chat Experience
-![Chat Interface](r5.png)
+![Chat Interface](frontend/r5.png)
 *Conversational interface with:*
 - Message history
 - Free-form input field
 - Navigation options
 
-![Active Chat Session](r6.png)
+![Active Chat Session](frontend/r6.png)
 *Sample dialogue showing:*
 - Education history retrieval
 - GPA details
