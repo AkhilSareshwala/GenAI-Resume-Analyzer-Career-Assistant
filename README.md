@@ -1,69 +1,65 @@
-# AI Resume Analyzer & Career Coach
+# 🧠 AI Resume Analyzer & Career Coach
 
-## Application Overview
-This tool provides AI-powered resume analysis with three core functions:
-1. **Resume Evaluation** - Automatic extraction of key qualifications
-2. **Q&A System** - Instant answers about resume content
-3. **Chat Interface** - Conversational career coaching
+## 🚀 Application Overview  
+An intelligent career assistant offering **AI-powered resume insights** with three core functionalities:
 
-![Resume Upload Interface](frontend/r1.png)
-*Initial screen where users upload PDF resumes. Shows file selection and submission button.*
+1. 📄 **Resume Evaluation** – Automatic extraction of key qualifications  
+2. ❓ **Q&A System** – Instant answers to user queries from resume content  
+3. 💬 **Chat Interface** – Conversational career coaching and guidance  
 
-## Key Features Demonstrated
+![Resume Upload Interface](frontend/r1.png)  
+*👆 Initial upload screen: Select and submit your PDF resume*
 
-### 1. Comprehensive Resume Analysis
-![Analysis Results](frontend/r2.png)
-*Sample output showing:*
-- Career profile summary
-- Technical skills breakdown
-- Soft skills assessment
-- Structured bullet-point formatting
+---
 
-### 2. Targeted Question Answering
-![Question Input](frontend/r3.png)
-*Users can ask specific questions like "Is it compatible for web development?"*
+## ✨ Key Features Demonstrated
 
-![Answer Output](frontend/r4.png)
-*AI response analyzing web development compatibility based on Flask skills mentioned in the resume*
+### 1️⃣ Comprehensive Resume Analysis  
+![Analysis Results](frontend/r2.png)  
+🔍 Sample Output Includes:  
+- 🧑‍💼 Career Profile Summary  
+- 💻 Technical Skills Breakdown  
+- 🧠 Soft Skills Assessment  
+- ✅ Structured, Bullet-point Formatting  
 
-### 3. Interactive Chat Experience
-![Chat Interface](frontend/r5.png)
-*Conversational interface with:*
-- Message history
-- Free-form input field
-- Navigation options
+---
 
-![Active Chat Session](frontend/r6.png)
-*Sample dialogue showing:*
-- Education history retrieval
-- GPA details
-- Context-aware responses
+### 2️⃣ Targeted Question Answering  
+![Question Input](frontend/r3.png)  
+🗨️ Ask questions like:  
+> *"Is this resume suitable for web development roles?"*
 
-## Technical Implementation
+![Answer Output](frontend/r4.png)  
+🤖 AI Response Example:  
+> *"Yes, the resume shows experience with Flask and Python, which are strong for backend web development."*
 
-### Core Components
-- **Flask** backend server
-- **Google Gemini** for analysis
-- **HuggingFace** embeddings
-- **FAISS** vector storage
-- **PyPDF2** text extraction
+---
 
-### Processing Flow
-1. PDF upload → Text extraction
-2. Chunking → Vector embedding
-3. AI analysis → Structured output
-4. Query handling → Contextual responses
+### 3️⃣ Interactive Chat Experience  
+![Chat Interface](frontend/r5.png)  
+💬 Conversational Interface Includes:  
+- 🧾 Message History  
+- ✍️ Free-form Input  
+- 🧭 Easy Navigation  
 
-## Usage Guide
-1. Upload PDF resume
-2. Review automatic analysis
-3. Ask specific questions or chat interactively
-4. Download/share results
+![Active Chat Session](frontend/r6.png)  
+📚 Example Dialogue:
+- 🎓 Education History  
+- 📈 GPA Details  
+- 🔄 Context-aware Feedback
 
-## Support
-For issues with:
-- PDF processing → Ensure text-selectable files
-- AI responses → Check API key configuration
-- Performance → Reduce resume complexity
+---
 
-*All screenshots show actual UI components from the working application.*
+## 🛠️ Technical Implementation
+
+### 🔧 Core Components
+- 🐍 **Flask** – Backend API Server  
+- 🧠 **Google Gemini** – Resume Intelligence & Analysis  
+- 📚 **HuggingFace Embeddings** – Text Vectorization  
+- 🧬 **FAISS** – Fast Semantic Search  
+- 📄 **PyPDF2** – Resume Text Extraction  
+
+---
+
+### 🔁 Processing Flow
+
