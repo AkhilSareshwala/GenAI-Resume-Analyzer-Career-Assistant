@@ -1,9 +1,21 @@
-langchain-google-genai
-google-generativeai
-langchain
-faiss-cpu
-gradio
-python-dotenv
-PyPDF2
-gunicorn
+# Core web framework and WSGI server
 flask
+gunicorn
+
+# File handling
+PyPDF2
+python-dotenv
+werkzeug
+
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-huggingface
+
+# Embeddings and vector store
+faiss-cpu
+
+# Google Generative AI support
+google-generativeai
